@@ -1,15 +1,14 @@
-# eye-tracking-project
+# Eye Gaze Metrics Extraction
 
-Eye Gaze Metrics and Experiment Data Analysis
 
-This folder contains five Python scripts that analyze eye gaze metrics, patch characteristics, and survey data from the experiment. Below is a detailed description of each script and the required files to run them:
+This folder contains 5 Python scripts that analyze eye gaze metrics, patch characteristics, and survey data from the experiment. Below is a detailed description of each script and the required files to run them:
 
 1. fixation_generator.ipynb
 This script processes raw eye metrics data from participants to generate various eye gaze metrics, including fixation count, fixation rate, total fixation time, average fixation duration, and the first fixation on the main six Areas of Interest (AOIs) in the experiment. It also includes patch correctness and participants' acceptance/rejection decisions.
 
 Requirements:
 •	raw_data/: Contains CSV files for each participant per task, including raw eye gaze metrics and participant information such as ID, patch order, and acceptance/rejection.
-•	Java-info.xlsx: Includes the lines of code for methods and classes in the source code file and test file for each patch, along with patch correctness data.
+•	java-info.xlsx: Includes the lines of code for methods and classes in the source code file and test file for each patch, along with patch correctness data.
 
 Output:
 •	generated_fixations/: Contains the fixation metrics, patch correctness, and participants' acceptance/rejection data, both separately and merged into a single Excel file.
@@ -19,7 +18,7 @@ This script generates all the fixation metrics, similar to fixation_generator.ip
 
 Requirements:
 •	raw_data/
-•	Java-info.xlsx
+•	java-info.xlsx
 •	surveys/: Contains Excel files with participants' survey responses.
 
 Output:
@@ -30,7 +29,7 @@ This script generates fixation counts, fixation times, and average fixation dura
 
 Requirements:
 •	raw_data/
-•	Java-info.xlsx
+•	java-info.xlsx
 •	bug-info.xlsx: Includes the lines of code for different AOIs in the bug report file.
 
 Output:
