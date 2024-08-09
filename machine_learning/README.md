@@ -1,7 +1,7 @@
 # Machine Learning Models and Statistical Analysis
 We utilized two distinct datasets to predict developers' patch acceptance. Below is a description of each dataset and the corresponding analysis:
 
-Dataset 1
+Dataset 1:
 Features: Eye gaze metrics (e.g., fixation rate, average fixation time on 6 AOIs) and patch correctness.
 Target: Patch acceptance.
 
@@ -35,7 +35,7 @@ Requirements: dataset_1.csv in the root directory.
 
 Results: Clustering without patch acceptance produced two categories, with results saved in clustering_without_acceptance.csv.
 
-Dataset 2
+Dataset 2:
 Features: Task priority level, patch author's experience level, and task difficulty.
 Target: Patch acceptance.
 
